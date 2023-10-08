@@ -1,0 +1,11 @@
+framework module DeenIslamSDK {
+  umbrella header "DeenIslamSDK.h"
+  export *
+
+  module * { export * }
+}
+
+module DeenIslamSDK.Swift {
+  header "DeenIslamSDK-Swift.h"
+  requires objc
+}
