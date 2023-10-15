@@ -657,13 +657,6 @@ SWIFT_AVAILABILITY(ios_app_extension,unavailable)
 
 SWIFT_AVAILABILITY(ios_app_extension,unavailable)
 @interface IQKeyboardManager (SWIFT_EXTENSION(DeenIslamSDK))
-/// reloadInputViews to reload toolbar buttons enable/disable state on the fly Enhancement ID #434.
-- (void)reloadInputViews;
-@end
-
-
-SWIFT_AVAILABILITY(ios_app_extension,unavailable)
-@interface IQKeyboardManager (SWIFT_EXTENSION(DeenIslamSDK))
 @property (nonatomic) BOOL enableDebugging;
 /// @warning Use below methods to completely enable/disable notifications registered by library internally.
 /// Please keep in mind that library is totally dependent on NSNotification of UITextField, UITextField, Keyboard etc.
@@ -671,6 +664,13 @@ SWIFT_AVAILABILITY(ios_app_extension,unavailable)
 /// You should use below methods at your own risk.
 - (void)registerAllNotifications;
 - (void)unregisterAllNotifications;
+@end
+
+
+SWIFT_AVAILABILITY(ios_app_extension,unavailable)
+@interface IQKeyboardManager (SWIFT_EXTENSION(DeenIslamSDK))
+/// reloadInputViews to reload toolbar buttons enable/disable state on the fly Enhancement ID #434.
+- (void)reloadInputViews;
 @end
 
 
@@ -911,6 +911,7 @@ SWIFT_AVAILABILITY(ios_app_extension,unavailable)
 
 
 
+
 SWIFT_AVAILABILITY(ios_app_extension,unavailable)
 @interface UIView (SWIFT_EXTENSION(DeenIslamSDK))
 /// To set customized distance from keyboard for textField/textView. Can’t be less than zero
@@ -937,6 +938,7 @@ SWIFT_AVAILABILITY(ios_app_extension,unavailable)
 /// @param belowView view object in upper hierarchy where method should stop searching and return nil
 - (UIView * _Nullable)superviewOfClassType:(SWIFT_METATYPE(UIView) _Nonnull)classType belowView:(UIView * _Nullable)belowView SWIFT_WARN_UNUSED_RESULT;
 @end
+
 
 
 
@@ -1652,13 +1654,6 @@ SWIFT_AVAILABILITY(ios_app_extension,unavailable)
 
 SWIFT_AVAILABILITY(ios_app_extension,unavailable)
 @interface IQKeyboardManager (SWIFT_EXTENSION(DeenIslamSDK))
-/// reloadInputViews to reload toolbar buttons enable/disable state on the fly Enhancement ID #434.
-- (void)reloadInputViews;
-@end
-
-
-SWIFT_AVAILABILITY(ios_app_extension,unavailable)
-@interface IQKeyboardManager (SWIFT_EXTENSION(DeenIslamSDK))
 @property (nonatomic) BOOL enableDebugging;
 /// @warning Use below methods to completely enable/disable notifications registered by library internally.
 /// Please keep in mind that library is totally dependent on NSNotification of UITextField, UITextField, Keyboard etc.
@@ -1666,6 +1661,13 @@ SWIFT_AVAILABILITY(ios_app_extension,unavailable)
 /// You should use below methods at your own risk.
 - (void)registerAllNotifications;
 - (void)unregisterAllNotifications;
+@end
+
+
+SWIFT_AVAILABILITY(ios_app_extension,unavailable)
+@interface IQKeyboardManager (SWIFT_EXTENSION(DeenIslamSDK))
+/// reloadInputViews to reload toolbar buttons enable/disable state on the fly Enhancement ID #434.
+- (void)reloadInputViews;
 @end
 
 
@@ -1906,6 +1908,7 @@ SWIFT_AVAILABILITY(ios_app_extension,unavailable)
 
 
 
+
 SWIFT_AVAILABILITY(ios_app_extension,unavailable)
 @interface UIView (SWIFT_EXTENSION(DeenIslamSDK))
 /// To set customized distance from keyboard for textField/textView. Can’t be less than zero
@@ -1932,6 +1935,7 @@ SWIFT_AVAILABILITY(ios_app_extension,unavailable)
 /// @param belowView view object in upper hierarchy where method should stop searching and return nil
 - (UIView * _Nullable)superviewOfClassType:(SWIFT_METATYPE(UIView) _Nonnull)classType belowView:(UIView * _Nullable)belowView SWIFT_WARN_UNUSED_RESULT;
 @end
+
 
 
 
