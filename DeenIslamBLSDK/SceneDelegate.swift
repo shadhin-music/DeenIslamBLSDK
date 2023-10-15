@@ -1,12 +1,13 @@
 //
 //  SceneDelegate.swift
-//  DeenIslamBLSDK
+//  DeenIslamExample
 //
-//  Created by MacBook Pro on 8/10/23.
+//  Created by Joy on 20/8/23.
 //
 
 import UIKit
 
+@available(iOS 13.0, *)
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?

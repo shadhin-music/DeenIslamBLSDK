@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeVC" customModule="Shadhin_BL_Example" customModuleProvider="target">
+            <connections>
+                <outlet property="bottomConstraint" destination="T7n-go-iQv" id="5Hu-co-zbC"/>
+                <outlet property="sessionTimeButton" destination="qQa-gD-q5G" id="yJJ-AM-lOt"/>
+                <outlet property="sessionTimeTV" destination="E3t-xQ-xRr" id="6d5-wR-vcJ"/>
+                <outlet property="tableView" destination="Lj8-Nr-Wib" id="K9B-iW-A67"/>
+                <outlet property="textField" destination="zfd-Ph-k8Z" id="Tsl-SH-ESx"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Lj8-Nr-Wib">
+                    <rect key="frame" x="0.0" y="47" width="390" height="670.66666666666663"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </tableView>
+                <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="aaP-QV-q5P">
+                    <rect key="frame" x="16" y="725.66666666666663" width="358" height="76.333333333333371"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="sxg-0W-Z3j">
+                            <rect key="frame" x="0.0" y="0.0" width="175" height="76.333333333333329"/>
+                            <subviews>
+                                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Session time " textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="E3t-xQ-xRr">
+                                    <rect key="frame" x="0.0" y="0.0" width="175" height="34"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                </textField>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qQa-gD-q5G">
+                                    <rect key="frame" x="0.0" y="42" width="175" height="34.333333333333343"/>
+                                    <state key="normal" title="Button"/>
+                                    <buttonConfiguration key="configuration" style="filled" title="Session Time Set"/>
+                                    <connections>
+                                        <action selector="onSessionTimeSetPressed:" destination="-1" eventType="touchUpInside" id="xRD-67-SNj"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="m21-Ta-6ro">
+                            <rect key="frame" x="183" y="0.0" width="175" height="76.333333333333329"/>
+                            <subviews>
+                                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Rc Code" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zfd-Ph-k8Z">
+                                    <rect key="frame" x="0.0" y="0.0" width="175" height="34"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                </textField>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i8E-aE-QIa">
+                                    <rect key="frame" x="0.0" y="42" width="175" height="34.333333333333343"/>
+                                    <state key="normal" title="Button"/>
+                                    <buttonConfiguration key="configuration" style="filled" title="RC Code Open"/>
+                                    <connections>
+                                        <action selector="onButtonPressed:" destination="-1" eventType="touchUpInside" id="Lyx-Ap-3mf"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Lj8-Nr-Wib" secondAttribute="trailing" id="4gM-Du-Md4"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="aaP-QV-q5P" secondAttribute="trailing" constant="16" id="JOb-YD-4Mj"/>
+                <constraint firstItem="aaP-QV-q5P" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="Qr8-eT-dpC"/>
+                <constraint firstItem="Lj8-Nr-Wib" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="RCw-Yh-wvW"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="aaP-QV-q5P" secondAttribute="bottom" constant="8" id="T7n-go-iQv"/>
+                <constraint firstItem="aaP-QV-q5P" firstAttribute="top" secondItem="Lj8-Nr-Wib" secondAttribute="bottom" constant="8" id="TAR-pW-3Zs"/>
+                <constraint firstItem="Lj8-Nr-Wib" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="mVh-Nt-2rq"/>
+            </constraints>
+            <point key="canvasLocation" x="-6.1538461538461533" y="20.616113744075829"/>
+        </view>
+    </objects>
+</document>
