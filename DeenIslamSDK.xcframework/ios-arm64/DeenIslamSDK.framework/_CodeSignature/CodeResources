@@ -326,15 +326,15 @@
 		</data>
 		<key>HomeBillBoardCentreCell.nib/objects-12.3+.nib</key>
 		<data>
-		FRekahSWnWiXsILkVv0hGMHynLw=
+		mFFmarhwHbuiiw9uNPwBDdraens=
 		</data>
 		<key>HomeBillBoardCentreCell.nib/objects-13.0+.nib</key>
 		<data>
-		Du1g4wS2H5W2uJnqbJdj+MalZts=
+		4CRTqrmR20pvEZZXFCrP2W+v0JU=
 		</data>
 		<key>HomeBillBoardCentreCell.nib/runtime.nib</key>
 		<data>
-		H6vzWQ1TCE4EAMILP0uEyjti670=
+		5pRff5jGnKIqA9sSE8+ByH39PUw=
 		</data>
 		<key>HomeBillboardCell.nib/objects-12.3+.nib</key>
 		<data>
@@ -358,15 +358,15 @@
 		</data>
 		<key>HomeCategoryDetailsCell.nib/objects-12.3+.nib</key>
 		<data>
-		B7T3xwm+pYdeZyHnhQJ+fMAlyQw=
+		krFRNvM/GT/bkNfO4DTd++SX6/k=
 		</data>
 		<key>HomeCategoryDetailsCell.nib/objects-13.0+.nib</key>
 		<data>
-		bhQuJrvoG42tdSYEc6APXbKcgWw=
+		OGrx66rVUxvFsuaNonYXXBpV9Lg=
 		</data>
 		<key>HomeCategoryDetailsCell.nib/runtime.nib</key>
 		<data>
-		qadrj7akaJvMUvaGbjSSXBlg/3k=
+		qFeZGA/lfllaB+O/uDeQGABiBmM=
 		</data>
 		<key>HomeDailyDuaCell.nib/objects-12.3+.nib</key>
 		<data>
@@ -482,7 +482,7 @@
 		</data>
 		<key>Modules/DeenIslamSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		kTGtXez8Qf7VE2CoJsFut11SuTE=
+		fSYMhwRvlMsB27cL1s6lxzg0fOU=
 		</data>
 		<key>Modules/DeenIslamSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -498,7 +498,7 @@
 		</data>
 		<key>Modules/DeenIslamSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		l1E6wWGmqdq0T6G6GbJKtS0aCAc=
+		uGikqakin2c8X01YPGrH+M4L1Ro=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -976,7 +976,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SQSylvpbyo6Oxp77nFHU6so9KA8=
+			nRCdzN3TXeryJA2f6+JAx3Cd65w=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1557,21 +1557,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nbTgEyaq0vqvljPChRYYsmxEBx+/8Y4klY/xmy7DnMk=
+			mMMGUzYKZZa3lSik1FC6S5UlIilVjNeZd8lSpzmMfRE=
 			</data>
 		</dict>
 		<key>HomeBillBoardCentreCell.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			k/5prPUQPloKxKP/4714yY1aReJJMxsMjYkXk2hKWnA=
+			HdIg5Q2ReeDjFRG9cZeAGDGoDd6GjRwjQ28DP2O9n9Q=
 			</data>
 		</dict>
 		<key>HomeBillBoardCentreCell.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nxTv5vKw8U+xXqTOoBDAA7Ddqqk1Ur9272zzsfdzewA=
+			1Hqv8ajs2oeDG7Fd5vOnFYQzmUaTt5r3ms7VIZzzlFg=
 			</data>
 		</dict>
 		<key>HomeBillboardCell.nib/objects-12.3+.nib</key>
@@ -1613,21 +1613,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Sy7Y5VG4XkdmaLxEayQgTf1GdndSys5Y2kTnFgUT5a4=
+			HJF/2UboVHI1HAJwprucWWMNN/rIac29m+dCqKbq7Y0=
 			</data>
 		</dict>
 		<key>HomeCategoryDetailsCell.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3OORHt7hxzQIVctVGdKRxTw0KV1Xqiy2QLgSSEbMdSA=
+			LIrkhb1dRKPY9i9WHHmt4WcixjdIS825y7Lcx5MVGXQ=
 			</data>
 		</dict>
 		<key>HomeCategoryDetailsCell.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cN/htO8maUSVZBF/NF95UvOhqiUBxtR2p1JQXA4GQW4=
+			ilfuk2QzD54H1j6XbjQSifev1tl+vkPJOGnvd/vJWbI=
 			</data>
 		</dict>
 		<key>HomeDailyDuaCell.nib/objects-12.3+.nib</key>
@@ -1823,7 +1823,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mN6jd0YRk/gQ30MfOPRlIZckaLBRr/gdLwCgB7IB9mA=
+			QnQzqcIsCnDj2Z1mIvLf67YgFnm92wLy+vq71XY0IdU=
 			</data>
 		</dict>
 		<key>Modules/DeenIslamSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -1851,7 +1851,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LAP/sbGhRsTtZTyp+dGnLv/PhHx0Wqx4T+fEhnGkl64=
+			9TW5pNRSxDO7ZCo9zCI/7EXqUAHlc7Qm2h/dBUtm9ec=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -2684,7 +2684,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XvgGMrf38P+hLjYp5lYG6eiZR6GKiyr+oE0Gx/cADzk=
+			w5WY9zKXO3qLe/a+ePuqJ7usRLqOLxnmkqVbm5VJ4Nk=
 			</data>
 			<key>optional</key>
 			<true/>

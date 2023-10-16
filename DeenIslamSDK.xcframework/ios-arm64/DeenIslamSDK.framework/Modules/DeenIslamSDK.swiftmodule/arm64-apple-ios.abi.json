@@ -263,6 +263,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DeenIslamSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -40949,6 +40959,13 @@
       "value": "170"
     },
     {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/Extensions\/AppConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 156,
+      "length": 8,
+      "value": "\"v0.0.2\""
+    },
+    {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/NamajTime\/PrayerTimeVC\/PrayerTimeDateWiseVM.swift",
       "kind": "BooleanLiteral",
       "offset": 1023,
@@ -43996,7 +44013,7 @@
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeVC.swift",
       "kind": "StringLiteral",
-      "offset": 2716,
+      "offset": 2803,
       "length": 5,
       "value": "\"Dua\""
     },
@@ -45514,6 +45531,13 @@
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
+      "kind": "Array",
+      "offset": 763,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
       "kind": "StringLiteral",
       "offset": 189,
       "length": 19,
@@ -45522,392 +45546,413 @@
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 887,
+      "offset": 1074,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1096,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1123,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 1046,
+      "offset": 1282,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 1069,
+      "offset": 1305,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 1100,
+      "offset": 1336,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 1122,
+      "offset": 1358,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 1153,
+      "offset": 1389,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 1412,
+      "offset": 1648,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 1964,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2170,
+      "offset": 2135,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 2731,
+      "offset": 2761,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
+      "kind": "Array",
+      "offset": 3094,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3137,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 2924,
+      "offset": 3455,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 3512,
+      "offset": 4043,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 3552,
+      "offset": 4083,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 3562,
+      "offset": 4093,
       "length": 2,
       "value": "32"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 3574,
+      "offset": 4105,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 3585,
+      "offset": 4116,
       "length": 2,
       "value": "32"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 3617,
+      "offset": 4148,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 3657,
+      "offset": 4188,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 3666,
+      "offset": 4197,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 3677,
+      "offset": 4208,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 3688,
+      "offset": 4219,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 3719,
+      "offset": 4250,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 3760,
+      "offset": 4291,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 3769,
+      "offset": 4300,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 3781,
+      "offset": 4312,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 3792,
+      "offset": 4323,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 4058,
+      "offset": 4589,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 4129,
+      "offset": 4660,
       "length": 2,
       "value": "64"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 4180,
+      "offset": 4711,
       "length": 1,
       "value": "1"
-    },
-    {
-      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4319,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4474,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4544,
-      "length": 2,
-      "value": "32"
-    },
-    {
-      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4827,
-      "length": 1,
-      "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
       "kind": "IntegerLiteral",
       "offset": 4850,
       "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4880,
-      "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 4902,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4933,
+      "offset": 5005,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 4955,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5215,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5238,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5268,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5290,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5321,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5596,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5685,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5773,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6102,
-      "length": 2,
-      "value": "33"
-    },
-    {
-      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6753,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6809,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6865,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6942,
-      "length": 2,
-      "value": "33"
-    },
-    {
-      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7213,
+      "offset": 5075,
       "length": 2,
       "value": "32"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 7238,
+      "offset": 5358,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 7307,
+      "offset": 5381,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5411,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 7376,
+      "offset": 5433,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5464,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 7422,
+      "offset": 5486,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5746,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5769,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5799,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5821,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5852,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6127,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6216,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6304,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6633,
+      "length": 2,
+      "value": "33"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7284,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7340,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7396,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7473,
+      "length": 2,
+      "value": "33"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7744,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7769,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7838,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7907,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehHomeAdapter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7953,
       "length": 2,
       "value": "40"
     },
@@ -48707,315 +48752,322 @@
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/Utils\/AppData.swift",
       "kind": "StringLiteral",
-      "offset": 990,
+      "offset": 991,
+      "length": 17,
+      "value": "\"selectedTashbee\""
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/Utils\/AppData.swift",
+      "kind": "StringLiteral",
+      "offset": 1076,
       "length": 22,
       "value": "\"isNotificationEnable\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/Utils\/AppData.swift",
       "kind": "BooleanLiteral",
-      "offset": 1028,
+      "offset": 1114,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/Utils\/AppData.swift",
       "kind": "StringLiteral",
-      "offset": 1098,
+      "offset": 1184,
       "length": 12,
       "value": "\"prayerTime\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/Utils\/AppData.swift",
       "kind": "StringLiteral",
-      "offset": 1174,
+      "offset": 1260,
       "length": 17,
       "value": "\"todayPrayerTime\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/Utils\/AppData.swift",
       "kind": "StringLiteral",
-      "offset": 1265,
+      "offset": 1351,
       "length": 21,
       "value": "\"lastNotificationDay\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/Utils\/AppData.swift",
       "kind": "StringLiteral",
-      "offset": 1350,
+      "offset": 1436,
       "length": 10,
       "value": "\"location\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/Utils\/AppData.swift",
       "kind": "StringLiteral",
-      "offset": 1376,
+      "offset": 1462,
       "length": 7,
       "value": "\"Dhaka\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/Utils\/AppData.swift",
       "kind": "StringLiteral",
-      "offset": 1441,
+      "offset": 1527,
       "length": 12,
       "value": "\"autoScroll\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/Utils\/AppData.swift",
       "kind": "BooleanLiteral",
-      "offset": 1469,
+      "offset": 1555,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/Utils\/AppData.swift",
       "kind": "StringLiteral",
-      "offset": 1529,
+      "offset": 1615,
       "length": 14,
       "value": "\"autoPlayNext\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/Utils\/AppData.swift",
       "kind": "BooleanLiteral",
-      "offset": 1559,
+      "offset": 1645,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/Utils\/AppData.swift",
       "kind": "StringLiteral",
-      "offset": 1621,
+      "offset": 1707,
       "length": 16,
       "value": "\"arabicFontSize\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/Utils\/AppData.swift",
       "kind": "IntegerLiteral",
-      "offset": 1653,
+      "offset": 1739,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/Utils\/AppData.swift",
       "kind": "StringLiteral",
-      "offset": 1714,
+      "offset": 1800,
       "length": 21,
       "value": "\"translationFontSize\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/Utils\/AppData.swift",
       "kind": "IntegerLiteral",
-      "offset": 1751,
+      "offset": 1837,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/Utils\/AppData.swift",
       "kind": "StringLiteral",
-      "offset": 1817,
+      "offset": 1903,
       "length": 14,
       "value": "\"sessionStart\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/Utils\/AppData.swift",
       "kind": "IntegerLiteral",
-      "offset": 1847,
+      "offset": 1933,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/Utils\/AppData.swift",
       "kind": "StringLiteral",
-      "offset": 1904,
+      "offset": 1990,
       "length": 19,
       "value": "\"featureTrackingID\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/Utils\/AppData.swift",
       "kind": "StringLiteral",
-      "offset": 1995,
+      "offset": 2081,
       "length": 13,
       "value": "\"userProfile\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/Utils\/AppData.swift",
       "kind": "Array",
-      "offset": 2136,
+      "offset": 2222,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/Utils\/AppData.swift",
       "kind": "IntegerLiteral",
-      "offset": 2168,
+      "offset": 2254,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/Utils\/AppData.swift",
       "kind": "StringLiteral",
-      "offset": 2221,
+      "offset": 2307,
       "length": 35,
       "value": "\"ٱلْحَمْدُ لِلَّهِ\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/Utils\/AppData.swift",
       "kind": "IntegerLiteral",
-      "offset": 2265,
+      "offset": 2351,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/Utils\/AppData.swift",
       "kind": "IntegerLiteral",
-      "offset": 2298,
+      "offset": 2384,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/Utils\/AppData.swift",
       "kind": "StringLiteral",
-      "offset": 2349,
+      "offset": 2435,
       "length": 31,
       "value": "\"سُبْحَانَ ٱللَّ\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/Utils\/AppData.swift",
       "kind": "IntegerLiteral",
-      "offset": 2389,
+      "offset": 2475,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/Utils\/AppData.swift",
       "kind": "IntegerLiteral",
-      "offset": 2422,
+      "offset": 2508,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/Utils\/AppData.swift",
       "kind": "StringLiteral",
-      "offset": 2471,
+      "offset": 2557,
       "length": 25,
       "value": "\"بِسْمِ اللهِ\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/Utils\/AppData.swift",
       "kind": "IntegerLiteral",
-      "offset": 2505,
+      "offset": 2591,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/Utils\/AppData.swift",
       "kind": "IntegerLiteral",
-      "offset": 2538,
+      "offset": 2624,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/Utils\/AppData.swift",
       "kind": "StringLiteral",
-      "offset": 2589,
+      "offset": 2675,
       "length": 19,
       "value": "\"الله أكبر\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/Utils\/AppData.swift",
       "kind": "IntegerLiteral",
-      "offset": 2617,
+      "offset": 2703,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/Utils\/AppData.swift",
       "kind": "IntegerLiteral",
-      "offset": 2650,
+      "offset": 2736,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/Utils\/AppData.swift",
       "kind": "StringLiteral",
-      "offset": 2703,
+      "offset": 2789,
       "length": 41,
       "value": "\"أَسْتَغْفِرُ اللّٰهَ\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/Utils\/AppData.swift",
       "kind": "IntegerLiteral",
-      "offset": 2753,
+      "offset": 2839,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/Utils\/AppData.swift",
       "kind": "IntegerLiteral",
-      "offset": 2786,
+      "offset": 2872,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/Utils\/AppData.swift",
       "kind": "StringLiteral",
-      "offset": 2831,
+      "offset": 2917,
       "length": 10,
       "value": "\"الله\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/Utils\/AppData.swift",
       "kind": "IntegerLiteral",
-      "offset": 2850,
+      "offset": 2936,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/Utils\/AppData.swift",
       "kind": "IntegerLiteral",
-      "offset": 2883,
+      "offset": 2969,
       "length": 1,
       "value": "7"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/Utils\/AppData.swift",
       "kind": "StringLiteral",
-      "offset": 2939,
+      "offset": 3025,
       "length": 47,
       "value": "\"لَا إِلَٰهَ إِلَّا ٱللَّ\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/Utils\/AppData.swift",
       "kind": "IntegerLiteral",
-      "offset": 2995,
+      "offset": 3081,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/Utils\/AppData.swift",
       "kind": "IntegerLiteral",
-      "offset": 3028,
+      "offset": 3114,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/Utils\/AppData.swift",
       "kind": "StringLiteral",
-      "offset": 3091,
+      "offset": 3177,
       "length": 60,
       "value": "\"سُبْحَانَ اللَّهِ وَبِحَمْدِهِ\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/Utils\/AppData.swift",
       "kind": "IntegerLiteral",
-      "offset": 3160,
+      "offset": 3246,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/Utils\/AppData.swift",
       "kind": "Array",
-      "offset": 3236,
+      "offset": 3322,
       "length": 4128,
       "value": "[\"আল ফাতিহা\", \"আল বাকারাহ\", \"আলে-ইমরান\", \"আন নিসা\", \"আল মায়িদাহ\", \"আল আন-আম\", \"আল আ'রাফ\", \"আল আনফাল \", \"আত-তাওবাহ্\", \"ইউনুস\", \"হুদ\", \"ইউসুফ\", \"আর-রাদ\", \"ইব্রাহীম\", \"সূরা আল হিজর\", \"আন নাহল\", \"বনী-ইসরাঈল\", \"আল কাহফ\", \"মারইয়াম\", \"ত্বোয়া-হা\", \"আল আম্বিয়া\", \"আল হাজ্জ্ব\", \"আল মু'মিনূন\", \"আন নূর\", \"আল ফুরকান\", \"আশ শুআরা\", \"আন নম্ল\", \"আল কাসাস\", \"আল আনকাবূত\", \"আর রুম\", \"লোক্মান\", \"আস সেজদাহ্\", \"আল আহ্যাব\", \"সাবা\", \"ফাতির\", \"ইয়াসীন\", \"আস ছাফ্ফাত\", \"ছোয়াদ\", \"আয্-যুমার\", \"গাফির\", \"হা-মীম সেজদাহ্\", \"আশ্-শূরা\", \"আয্-যুখরুফ\", \"আদ-দোখান\", \"আল জাসিয়াহ\", \"আল আহ্ক্বাফ\", \"মুহাম্মদ\", \"আল ফাত্হ\", \"আল হুজুরাত\", \"ক্বাফ\", \"আয-যারিয়াত\", \"আত্ব তূর\", \"আন-নাজম\", \"আল ক্বামার\", \"আর রাহমান\", \"আল-ওয়াকিয়াহ\", \"আল-হাদীদ\", \"আল-মুজাদালাহ\", \"আল-হাশর\", \"আল-মুমতাহিনাহ\", \"আস-সাফ\", \"আল-জুমুআ\", \"আল-মুনাফিকুন\", \"আত-তাগাবুন\", \"আত-তালাক\", \"আত-তাহরীম\", \"আল-মুলক\", \"আল-কলম\", \"আল-হাক্কাহ\", \"আল-মাআরিজ\", \"নূহ\", \"আল জ্বিন\", \"আল মুজাম্মিল\", \"আল মুদ্দাস্সির\", \"আল-ক্বিয়ামাহ\", \"আদ-ইনসান\", \"আল-মুরসালাত \", \"আন নাবা\", \"আন নাযিয়াত\", \"আবাসা\", \"আত-তাকভীর\", \"আল-ইনফিতার\", \"আত মুত্বাফ্ফিফীন\", \"আল ইনশিকাক\", \"আল-বুরুজ\", \"আত-তারিক্ব\", \"আল আ'লা\", \"আল গাশিয়াহ্\", \"আল ফাজ্র\", \"আল বালাদ\", \"আশ-শাম্স\", \"আল লাইল\", \"আদ-দুহা\", \"আল ইনশিরাহ\", \"আত ত্বীন\", \"আল আলাক্ব\", \"আল ক্বদর\", \"আল বাইয়্যিনাহ\", \"আল যিলযাল\", \"আল-আদিয়াত\", \"আল ক্বারিয়াহ\", \"আল তাকাসুর\", \"আল আছর\", \"আল হুমাযাহ\", \"আল ফীল\", \"আল কুরাইশ\", \"আল মাউন\", \"আল কাওসার\", \"আল কাফিরুন\", \"আন নাসর\", \"আল লাহাব\", \"আল-ইখলাস\", \"আল-ফালাক\", \"আন-নাস\"]"
     },
@@ -50656,6 +50708,20 @@
       "offset": 523,
       "length": 1,
       "value": "8"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/CustomView\/DeenFooterViewCV.swift",
+      "kind": "BooleanLiteral",
+      "offset": 565,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/CustomView\/DeenFooterViewCV.swift",
+      "kind": "FloatLiteral",
+      "offset": 696,
+      "length": 3,
+      "value": "5.0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/Library \/IQKeyboardManagerSwift\/IQKeyboardManager+OrientationNotification.swift",
@@ -52606,56 +52672,56 @@
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Zakat\/ZakatCalculatorLiabilities\/ZakatLiabilitiesCalculator.swift",
       "kind": "StringLiteral",
-      "offset": 3711,
+      "offset": 3710,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Zakat\/ZakatCalculatorLiabilities\/ZakatLiabilitiesCalculator.swift",
       "kind": "StringLiteral",
-      "offset": 3760,
+      "offset": 3759,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Zakat\/ZakatCalculatorLiabilities\/ZakatLiabilitiesCalculator.swift",
       "kind": "StringLiteral",
-      "offset": 3810,
+      "offset": 3809,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Zakat\/ZakatCalculatorLiabilities\/ZakatLiabilitiesCalculator.swift",
       "kind": "StringLiteral",
-      "offset": 3859,
+      "offset": 3858,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Zakat\/ZakatCalculatorLiabilities\/ZakatLiabilitiesCalculator.swift",
       "kind": "StringLiteral",
-      "offset": 3910,
+      "offset": 3909,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Zakat\/ZakatCalculatorLiabilities\/ZakatLiabilitiesCalculator.swift",
       "kind": "StringLiteral",
-      "offset": 3955,
+      "offset": 3954,
       "length": 33,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Zakat\/ZakatCalculatorLiabilities\/ZakatLiabilitiesCalculator.swift",
       "kind": "StringLiteral",
-      "offset": 3987,
+      "offset": 3986,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Zakat\/ZakatCalculatorLiabilities\/ZakatLiabilitiesCalculator.swift",
       "kind": "BooleanLiteral",
-      "offset": 4876,
+      "offset": 4874,
       "length": 4,
       "value": "true"
     },
@@ -53698,149 +53764,191 @@
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehRecentCountListCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 649,
+      "offset": 691,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehRecentCountListCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 701,
+      "offset": 743,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehRecentCountListCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 711,
+      "offset": 753,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehRecentCountListCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 720,
+      "offset": 762,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehRecentCountListCell.swift",
       "kind": "FloatLiteral",
-      "offset": 730,
+      "offset": 772,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehRecentCountListCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 778,
+      "offset": 820,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehRecentCountListCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 814,
+      "offset": 856,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehRecentCountListCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 864,
+      "offset": 906,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehRecentCountListCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 875,
+      "offset": 917,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehRecentCountListCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 915,
+      "offset": 957,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehRecentCountListCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 1011,
+      "offset": 1224,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehRecentCountListCell.swift",
       "kind": "StringLiteral",
-      "offset": 1039,
+      "offset": 1252,
       "length": 26,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehRecentCountListCell.swift",
       "kind": "StringLiteral",
-      "offset": 1061,
+      "offset": 1274,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehRecentCountListCell.swift",
       "kind": "StringLiteral",
-      "offset": 1064,
+      "offset": 1277,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehRecentCountListCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 1127,
+      "offset": 1340,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehRecentCountListCell.swift",
       "kind": "StringLiteral",
-      "offset": 1164,
-      "length": 31,
-      "value": "\"∞ \""
+      "offset": 1377,
+      "length": 29,
+      "value": "\"0 \""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehRecentCountListCell.swift",
       "kind": "StringLiteral",
-      "offset": 1194,
+      "offset": 1405,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehRecentCountListCell.swift",
       "kind": "StringLiteral",
-      "offset": 1244,
+      "offset": 1455,
       "length": 57,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehRecentCountListCell.swift",
       "kind": "StringLiteral",
-      "offset": 1270,
+      "offset": 1481,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehRecentCountListCell.swift",
       "kind": "StringLiteral",
-      "offset": 1274,
+      "offset": 1485,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehRecentCountListCell.swift",
       "kind": "StringLiteral",
-      "offset": 1300,
+      "offset": 1511,
       "length": 1,
       "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehRecentCountListCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1735,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehRecentCountListCell.swift",
+      "kind": "StringLiteral",
+      "offset": 1766,
+      "length": 63,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehRecentCountListCell.swift",
+      "kind": "StringLiteral",
+      "offset": 1798,
+      "length": 3,
+      "value": "\"0\""
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehRecentCountListCell.swift",
+      "kind": "StringLiteral",
+      "offset": 1802,
+      "length": 1,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehRecentCountListCell.swift",
+      "kind": "StringLiteral",
+      "offset": 1828,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehRecentCountListCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1997,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeHadithCell\/HomeHadithCell.swift",
@@ -55700,21 +55808,28 @@
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeeResetVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 1130,
+      "offset": 1129,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeeResetVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1275,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeeResetVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 1163,
+      "offset": 1308,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeeResetVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 1218,
+      "offset": 1363,
       "length": 1,
       "value": "0"
     },
@@ -56624,14 +56739,14 @@
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehJikkirCVContainerCell.swift",
       "kind": "FloatLiteral",
-      "offset": 1754,
+      "offset": 1611,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TashbeehJikkirCVContainerCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 1825,
+      "offset": 1682,
       "length": 4,
       "value": "true"
     },
@@ -62455,28 +62570,14 @@
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/Core\/DeenIslamWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 1568,
-      "length": 68,
-      "value": "\"count : \""
-    },
-    {
-      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/Core\/DeenIslamWrapper.swift",
-      "kind": "StringLiteral",
-      "offset": 1635,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/Core\/DeenIslamWrapper.swift",
-      "kind": "StringLiteral",
-      "offset": 2073,
+      "offset": 1839,
       "length": 83,
       "value": "\"Please Initialize SDK First. TabBar controller or UINavigationBarController empty\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/Core\/DeenIslamWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 2347,
+      "offset": 2113,
       "length": 11,
       "value": "\"Daily Dua\""
     },
@@ -63356,142 +63457,156 @@
       "value": "true"
     },
     {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/Extensions\/Int++.swift",
+      "kind": "StringLiteral",
+      "offset": 373,
+      "length": 9,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/Extensions\/Int++.swift",
+      "kind": "StringLiteral",
+      "offset": 381,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeAdapter.swift",
       "kind": "Array",
-      "offset": 317,
+      "offset": 343,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeAdapter.swift",
       "kind": "StringLiteral",
-      "offset": 200,
+      "offset": 226,
       "length": 11,
       "value": "\"DeenIslamSDK.HomeAdapter\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeAdapter.swift",
       "kind": "Array",
-      "offset": 1232,
+      "offset": 1258,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeAdapter.swift",
       "kind": "Array",
-      "offset": 2066,
+      "offset": 2255,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeAdapter.swift",
       "kind": "StringLiteral",
-      "offset": 3816,
+      "offset": 4005,
       "length": 6,
       "value": "\"cell\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeAdapter.swift",
       "kind": "StringLiteral",
-      "offset": 3932,
+      "offset": 4121,
       "length": 6,
       "value": "\"cell\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 4227,
+      "offset": 4416,
       "length": 2,
       "value": "32"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeAdapter.swift",
       "kind": "FloatLiteral",
-      "offset": 4624,
+      "offset": 4813,
       "length": 3,
       "value": "4.0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 4658,
+      "offset": 4847,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 4663,
+      "offset": 4852,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 4690,
+      "offset": 4879,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 4793,
+      "offset": 4982,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 4798,
+      "offset": 4987,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 4820,
+      "offset": 5009,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 6335,
+      "offset": 6524,
       "length": 2,
       "value": "32"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 6377,
+      "offset": 6566,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 6576,
+      "offset": 6765,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 6585,
+      "offset": 6774,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 6596,
+      "offset": 6785,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 6607,
+      "offset": 6796,
       "length": 1,
       "value": "0"
     },
@@ -67397,44 +67512,44 @@
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ApiService\/TrackingService.swift",
       "kind": "StringLiteral",
-      "offset": 1122,
-      "length": 54,
-      "value": "\"https:\/\/devapi.deenislamic.com\/api\/Tracker\/TrackUser\""
+      "offset": 1210,
+      "length": 51,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ApiService\/TrackingService.swift",
       "kind": "StringLiteral",
-      "offset": 1265,
+      "offset": 1238,
+      "length": 1,
+      "value": "\"\/api\/Tracker\/TrackUser\""
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ApiService\/TrackingService.swift",
+      "kind": "StringLiteral",
+      "offset": 1501,
+      "length": 8,
+      "value": "\"msisdn\""
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ApiService\/TrackingService.swift",
+      "kind": "StringLiteral",
+      "offset": 1519,
       "length": 10,
       "value": "\"pagename\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ApiService\/TrackingService.swift",
       "kind": "StringLiteral",
-      "offset": 1289,
+      "offset": 1563,
       "length": 12,
       "value": "\"trackingID\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ApiService\/TrackingService.swift",
       "kind": "StringLiteral",
-      "offset": 1315,
+      "offset": 1630,
       "length": 10,
       "value": "\"language\""
-    },
-    {
-      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ApiService\/TrackingService.swift",
-      "kind": "StringLiteral",
-      "offset": 1352,
-      "length": 8,
-      "value": "\"device\""
-    },
-    {
-      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ApiService\/TrackingService.swift",
-      "kind": "StringLiteral",
-      "offset": 1363,
-      "length": 8,
-      "value": "\"bl_SDK\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/Library \/Alamofire\/Response.swift",
@@ -69931,252 +70046,252 @@
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeBillboardCell\/HomeBillBoardCentreCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 1904,
+      "offset": 1948,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeBillboardCell\/HomeBillBoardCentreCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 1931,
+      "offset": 1975,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeBillboardCell\/HomeBillBoardCentreCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 2507,
+      "offset": 2551,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeBillboardCell\/HomeBillBoardCentreCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 2599,
+      "offset": 2643,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeBillboardCell\/HomeBillBoardCentreCell.swift",
       "kind": "FloatLiteral",
-      "offset": 2680,
+      "offset": 2724,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeBillboardCell\/HomeBillBoardCentreCell.swift",
       "kind": "StringLiteral",
-      "offset": 2970,
+      "offset": 3014,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeBillboardCell\/HomeBillBoardCentreCell.swift",
       "kind": "StringLiteral",
-      "offset": 3083,
+      "offset": 3127,
       "length": 19,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeBillboardCell\/HomeBillBoardCentreCell.swift",
       "kind": "StringLiteral",
-      "offset": 3101,
+      "offset": 3145,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeBillboardCell\/HomeBillBoardCentreCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 3904,
+      "offset": 3948,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeBillboardCell\/HomeBillBoardCentreCell.swift",
       "kind": "StringLiteral",
-      "offset": 3954,
+      "offset": 3998,
       "length": 57,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeBillboardCell\/HomeBillBoardCentreCell.swift",
       "kind": "StringLiteral",
-      "offset": 3985,
+      "offset": 4029,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeBillboardCell\/HomeBillBoardCentreCell.swift",
       "kind": "StringLiteral",
-      "offset": 3989,
+      "offset": 4033,
       "length": 1,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeBillboardCell\/HomeBillBoardCentreCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 3992,
+      "offset": 4036,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeBillboardCell\/HomeBillBoardCentreCell.swift",
       "kind": "StringLiteral",
-      "offset": 4006,
+      "offset": 4050,
       "length": 3,
       "value": "\"5\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeBillboardCell\/HomeBillBoardCentreCell.swift",
       "kind": "StringLiteral",
-      "offset": 4010,
+      "offset": 4054,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeBillboardCell\/HomeBillBoardCentreCell.swift",
       "kind": "FloatLiteral",
-      "offset": 4078,
+      "offset": 4122,
       "length": 3,
       "value": "5.0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeBillboardCell\/HomeBillBoardCentreCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 4291,
+      "offset": 4335,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeBillboardCell\/HomeBillBoardCentreCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 4381,
+      "offset": 4425,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeBillboardCell\/HomeBillBoardCentreCell.swift",
       "kind": "StringLiteral",
-      "offset": 4472,
+      "offset": 4516,
       "length": 97,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeBillboardCell\/HomeBillBoardCentreCell.swift",
       "kind": "StringLiteral",
-      "offset": 4501,
+      "offset": 4545,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeBillboardCell\/HomeBillBoardCentreCell.swift",
       "kind": "StringLiteral",
-      "offset": 4531,
+      "offset": 4575,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeBillboardCell\/HomeBillBoardCentreCell.swift",
       "kind": "StringLiteral",
-      "offset": 4567,
+      "offset": 4611,
       "length": 1,
       "value": "\"?\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeBillboardCell\/HomeBillBoardCentreCell.swift",
       "kind": "StringLiteral",
-      "offset": 4718,
+      "offset": 4762,
       "length": 74,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeBillboardCell\/HomeBillBoardCentreCell.swift",
       "kind": "StringLiteral",
-      "offset": 4746,
+      "offset": 4790,
       "length": 1,
       "value": "\" - \""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeBillboardCell\/HomeBillBoardCentreCell.swift",
       "kind": "StringLiteral",
-      "offset": 4788,
+      "offset": 4832,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeBillboardCell\/HomeBillBoardCentreCell.swift",
       "kind": "StringLiteral",
-      "offset": 4791,
+      "offset": 4835,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeBillboardCell\/HomeBillBoardCentreCell.swift",
       "kind": "StringLiteral",
-      "offset": 4836,
+      "offset": 4880,
       "length": 72,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeBillboardCell\/HomeBillBoardCentreCell.swift",
       "kind": "StringLiteral",
-      "offset": 4869,
+      "offset": 4913,
       "length": 1,
       "value": "\" : \""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeBillboardCell\/HomeBillBoardCentreCell.swift",
       "kind": "StringLiteral",
-      "offset": 4904,
+      "offset": 4948,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeBillboardCell\/HomeBillBoardCentreCell.swift",
       "kind": "StringLiteral",
-      "offset": 4907,
+      "offset": 4951,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeBillboardCell\/HomeBillBoardCentreCell.swift",
       "kind": "StringLiteral",
-      "offset": 5677,
+      "offset": 5721,
       "length": 63,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeBillboardCell\/HomeBillBoardCentreCell.swift",
       "kind": "StringLiteral",
-      "offset": 5710,
+      "offset": 5754,
       "length": 1,
       "value": "\" : \""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeBillboardCell\/HomeBillBoardCentreCell.swift",
       "kind": "StringLiteral",
-      "offset": 5739,
+      "offset": 5783,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeBillboardCell\/HomeBillBoardCentreCell.swift",
       "kind": "StringLiteral",
-      "offset": 5959,
+      "offset": 6003,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeBillboardCell\/HomeBillBoardCentreCell.swift",
       "kind": "StringLiteral",
-      "offset": 6145,
+      "offset": 6189,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeBillboardCell\/HomeBillBoardCentreCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 6678,
+      "offset": 6722,
       "length": 5,
       "value": "false"
     },
@@ -73018,70 +73133,98 @@
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeCategoryCell\/HomeCategoryDetailsCell.swift",
       "kind": "FloatLiteral",
-      "offset": 882,
+      "offset": 920,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeCategoryCell\/HomeCategoryDetailsCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 894,
+      "offset": 932,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeCategoryCell\/HomeCategoryDetailsCell.swift",
       "kind": "FloatLiteral",
-      "offset": 1002,
+      "offset": 1040,
       "length": 4,
       "value": "0.90"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeCategoryCell\/HomeCategoryDetailsCell.swift",
       "kind": "FloatLiteral",
-      "offset": 1011,
+      "offset": 1049,
       "length": 4,
       "value": "0.90"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeCategoryCell\/HomeCategoryDetailsCell.swift",
       "kind": "FloatLiteral",
-      "offset": 1131,
+      "offset": 1169,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeCategoryCell\/HomeCategoryDetailsCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 1143,
+      "offset": 1181,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeCategoryCell\/HomeCategoryDetailsCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 1251,
+      "offset": 1289,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeCategoryCell\/HomeCategoryDetailsCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 1257,
+      "offset": 1295,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeCategoryCell\/HomeCategoryDetailsCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 1535,
+      "offset": 1573,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeCategoryCell\/HomeCategoryDetailsCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1622,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeCategoryCell\/HomeCategoryDetailsCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1712,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeCategoryCell\/HomeCategoryDetailsCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1758,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeCategoryCell\/HomeCategoryDetailsCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1846,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeCategoryCell\/HomeCategoryDetailsCell.swift",
       "kind": "StringLiteral",
-      "offset": 1734,
+      "offset": 2130,
       "length": 3,
       "value": "\"\/\""
     },
@@ -77127,7 +77270,14 @@
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TasbeehVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 3373,
+      "offset": 3557,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/TasbeehVC\/TasbeehVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3605,
       "length": 1,
       "value": "2"
     },
@@ -82671,98 +82821,91 @@
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ApiService\/ApiService.swift",
       "kind": "StringLiteral",
-      "offset": 594,
+      "offset": 562,
       "length": 29,
       "value": "\"https:\/\/api.deenislamic.com\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ApiService\/ApiService.swift",
       "kind": "StringLiteral",
-      "offset": 802,
+      "offset": 844,
       "length": 34,
       "value": "\"https:\/\/services.deenislamic.com\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ApiService\/ApiService.swift",
       "kind": "StringLiteral",
-      "offset": 882,
+      "offset": 924,
       "length": 53,
       "value": "\"https:\/\/islamic-content.sgp1.digitaloceanspaces.com\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ApiService\/ApiService.swift",
       "kind": "StringLiteral",
-      "offset": 1115,
+      "offset": 1157,
       "length": 8,
       "value": "\"device\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ApiService\/ApiService.swift",
       "kind": "StringLiteral",
-      "offset": 1132,
+      "offset": 1174,
       "length": 5,
-      "value": "\"iOS\""
+      "value": "\"sdk\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ApiService\/ApiService.swift",
       "kind": "StringLiteral",
-      "offset": 1164,
+      "offset": 1206,
       "length": 8,
       "value": "\"client\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ApiService\/ApiService.swift",
       "kind": "StringLiteral",
-      "offset": 1181,
-      "length": 3,
-      "value": "\"2\""
+      "offset": 1223,
+      "length": 5,
+      "value": "\"2.1\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ApiService\/ApiService.swift",
       "kind": "StringLiteral",
-      "offset": 1211,
+      "offset": 1255,
       "length": 12,
       "value": "\"appVersion\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ApiService\/ApiService.swift",
       "kind": "StringLiteral",
-      "offset": 1232,
-      "length": 8,
-      "value": "\"v0.0.1\""
-    },
-    {
-      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ApiService\/ApiService.swift",
-      "kind": "StringLiteral",
-      "offset": 1267,
+      "offset": 1325,
       "length": 13,
       "value": "\"deviceModel\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ApiService\/ApiService.swift",
       "kind": "StringLiteral",
-      "offset": 1347,
+      "offset": 1405,
       "length": 10,
       "value": "\"deviceID\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ApiService\/ApiService.swift",
       "kind": "StringLiteral",
-      "offset": 1418,
+      "offset": 1476,
       "length": 13,
       "value": "\"iosDeviceID\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ApiService\/ApiService.swift",
       "kind": "StringLiteral",
-      "offset": 1488,
+      "offset": 1546,
       "length": 9,
       "value": "\"myblsdk\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ApiService\/ApiService.swift",
       "kind": "StringLiteral",
-      "offset": 1529,
+      "offset": 1587,
       "length": 12,
       "value": "\"h8JD1vNStY\""
     },
@@ -84876,147 +85019,147 @@
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeBillboardCell\/HomeBillboardCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 863,
+      "offset": 897,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeBillboardCell\/HomeBillboardCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 905,
+      "offset": 939,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeBillboardCell\/HomeBillboardCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 962,
+      "offset": 996,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeBillboardCell\/HomeBillboardCell.swift",
       "kind": "StringLiteral",
-      "offset": 1047,
+      "offset": 1081,
       "length": 6,
       "value": "\"cell\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeBillboardCell\/HomeBillboardCell.swift",
       "kind": "FloatLiteral",
-      "offset": 1298,
+      "offset": 1332,
       "length": 3,
       "value": "4.0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeBillboardCell\/HomeBillboardCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 1335,
+      "offset": 1369,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeBillboardCell\/HomeBillboardCell.swift",
       "kind": "FloatLiteral",
-      "offset": 1463,
+      "offset": 1497,
       "length": 3,
       "value": "0.7"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeBillboardCell\/HomeBillboardCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 1489,
+      "offset": 1523,
       "length": 3,
       "value": "356"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeBillboardCell\/HomeBillboardCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 1495,
+      "offset": 1529,
       "length": 3,
       "value": "296"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeBillboardCell\/HomeBillboardCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 1851,
+      "offset": 1885,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeBillboardCell\/HomeBillboardCell.swift",
       "kind": "StringLiteral",
-      "offset": 2980,
+      "offset": 3063,
       "length": 52,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeBillboardCell\/HomeBillboardCell.swift",
       "kind": "StringLiteral",
-      "offset": 3005,
+      "offset": 3088,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeBillboardCell\/HomeBillboardCell.swift",
       "kind": "StringLiteral",
-      "offset": 3008,
+      "offset": 3091,
       "length": 1,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeBillboardCell\/HomeBillboardCell.swift",
       "kind": "StringLiteral",
-      "offset": 3028,
+      "offset": 3111,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeBillboardCell\/HomeBillboardCell.swift",
       "kind": "StringLiteral",
-      "offset": 3031,
+      "offset": 3114,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeBillboardCell\/HomeBillboardCell.swift",
       "kind": "StringLiteral",
-      "offset": 3112,
+      "offset": 3195,
       "length": 6,
       "value": "\"cell\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeBillboardCell\/HomeBillboardCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 3160,
+      "offset": 3243,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeBillboardCell\/HomeBillboardCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 3199,
+      "offset": 3282,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeBillboardCell\/HomeBillboardCell.swift",
       "kind": "StringLiteral",
-      "offset": 3970,
+      "offset": 4053,
       "length": 18,
       "value": "\"didEndDisplaying\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeBillboardCell\/HomeBillboardCell.swift",
       "kind": "StringLiteral",
-      "offset": 4214,
+      "offset": 4297,
       "length": 23,
       "value": "\"IndexPath.is \""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/Home\/HomeBillboardCell\/HomeBillboardCell.swift",
       "kind": "StringLiteral",
-      "offset": 4236,
+      "offset": 4319,
       "length": 2,
       "value": "\"\""
     },
