@@ -62417,49 +62417,49 @@
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/Core\/DeenIslamWrapper.swift",
       "kind": "BooleanLiteral",
-      "offset": 633,
+      "offset": 613,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/Core\/DeenIslamWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 647,
+      "offset": 627,
       "length": 16,
       "value": "\"Token is empty\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/Core\/DeenIslamWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 1413,
+      "offset": 1393,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/Core\/DeenIslamWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 1588,
+      "offset": 1568,
       "length": 68,
       "value": "\"count : \""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/Core\/DeenIslamWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 1655,
+      "offset": 1635,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/Core\/DeenIslamWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 2113,
+      "offset": 2073,
       "length": 83,
       "value": "\"Please Initialize SDK First. TabBar controller or UINavigationBarController empty\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/Core\/DeenIslamWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 2387,
+      "offset": 2347,
       "length": 11,
       "value": "\"Daily Dua\""
     },

@@ -10,11 +10,6 @@
 		5214EFF72AD2755000D7C2FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5214EFF52AD2755000D7C2FE /* Main.storyboard */; };
 		5214EFF92AD2755300D7C2FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5214EFF82AD2755300D7C2FE /* Assets.xcassets */; };
 		5214EFFC2AD2755300D7C2FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5214EFFA2AD2755300D7C2FE /* LaunchScreen.storyboard */; };
-		5214F0072AD2755400D7C2FE /* DeenIslamBLSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5214F0062AD2755400D7C2FE /* DeenIslamBLSDKTests.swift */; };
-		5214F0112AD2755400D7C2FE /* DeenIslamBLSDKUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5214F0102AD2755400D7C2FE /* DeenIslamBLSDKUITests.swift */; };
-		5214F0132AD2755400D7C2FE /* DeenIslamBLSDKUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5214F0122AD2755400D7C2FE /* DeenIslamBLSDKUITestsLaunchTests.swift */; };
-		5214F0212AD2763000D7C2FE /* DeenSDK_BL.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5214F0202AD2763000D7C2FE /* DeenSDK_BL.xcframework */; };
-		5214F0222AD2763000D7C2FE /* DeenSDK_BL.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5214F0202AD2763000D7C2FE /* DeenSDK_BL.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5214F0302AD279B700D7C2FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5214F0252AD279B700D7C2FE /* ViewController.swift */; };
 		5214F0312AD279B800D7C2FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5214F0262AD279B700D7C2FE /* SceneDelegate.swift */; };
 		5214F0322AD279B800D7C2FE /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5214F0272AD279B700D7C2FE /* HomeVC.xib */; };
@@ -26,33 +21,18 @@
 		5214F0382AD279B800D7C2FE /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5214F02D2AD279B700D7C2FE /* TabBarVC.swift */; };
 		5214F0392AD279B800D7C2FE /* C.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5214F02E2AD279B700D7C2FE /* C.swift */; };
 		5214F03A2AD279B800D7C2FE /* C.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5214F02F2AD279B700D7C2FE /* C.xib */; };
+		52F911722ADD03A800252C9F /* DeenIslamBLSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52F911712ADD03A800252C9F /* DeenIslamBLSDK.xcframework */; };
+		52F911732ADD03A800252C9F /* DeenIslamBLSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 52F911712ADD03A800252C9F /* DeenIslamBLSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		5214F0032AD2755400D7C2FE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5214EFE42AD2755000D7C2FE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5214EFEB2AD2755000D7C2FE;
-			remoteInfo = DeenIslamBLSDK;
-		};
-		5214F00D2AD2755400D7C2FE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5214EFE42AD2755000D7C2FE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5214EFEB2AD2755000D7C2FE;
-			remoteInfo = DeenIslamBLSDK;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
-		5214F0232AD2763000D7C2FE /* Embed Frameworks */ = {
+		52F911702ADD039100252C9F /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				5214F0222AD2763000D7C2FE /* DeenSDK_BL.xcframework in Embed Frameworks */,
+				52F911732ADD03A800252C9F /* DeenIslamBLSDK.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -65,12 +45,6 @@
 		5214EFF82AD2755300D7C2FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5214EFFB2AD2755300D7C2FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5214EFFD2AD2755300D7C2FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5214F0022AD2755400D7C2FE /* DeenIslamBLSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeenIslamBLSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5214F0062AD2755400D7C2FE /* DeenIslamBLSDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeenIslamBLSDKTests.swift; sourceTree = "<group>"; };
-		5214F00C2AD2755400D7C2FE /* DeenIslamBLSDKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeenIslamBLSDKUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5214F0102AD2755400D7C2FE /* DeenIslamBLSDKUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeenIslamBLSDKUITests.swift; sourceTree = "<group>"; };
-		5214F0122AD2755400D7C2FE /* DeenIslamBLSDKUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeenIslamBLSDKUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		5214F0202AD2763000D7C2FE /* DeenSDK_BL.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = DeenSDK_BL.xcframework; sourceTree = "<group>"; };
 		5214F0242AD279B600D7C2FE /* DeenIslamBLSDK-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DeenIslamBLSDK-Bridging-Header.h"; sourceTree = "<group>"; };
 		5214F0252AD279B700D7C2FE /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5214F0262AD279B700D7C2FE /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +57,7 @@
 		5214F02D2AD279B700D7C2FE /* TabBarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
 		5214F02E2AD279B700D7C2FE /* C.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = C.swift; sourceTree = "<group>"; };
 		5214F02F2AD279B700D7C2FE /* C.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = C.xib; sourceTree = "<group>"; };
+		52F911712ADD03A800252C9F /* DeenIslamBLSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = DeenIslamBLSDK.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,21 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5214F0212AD2763000D7C2FE /* DeenSDK_BL.xcframework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5214EFFF2AD2755400D7C2FE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5214F0092AD2755400D7C2FE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				52F911722ADD03A800252C9F /* DeenIslamBLSDK.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,8 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				5214EFEE2AD2755000D7C2FE /* DeenIslamBLSDK */,
-				5214F0052AD2755400D7C2FE /* DeenIslamBLSDKTests */,
-				5214F00F2AD2755400D7C2FE /* DeenIslamBLSDKUITests */,
 				5214EFED2AD2755000D7C2FE /* Products */,
 				5214F01F2AD2762F00D7C2FE /* Frameworks */,
 			);
@@ -126,8 +85,6 @@
 			isa = PBXGroup;
 			children = (
 				5214EFEC2AD2755000D7C2FE /* DeenIslamBLSDK.app */,
-				5214F0022AD2755400D7C2FE /* DeenIslamBLSDKTests.xctest */,
-				5214F00C2AD2755400D7C2FE /* DeenIslamBLSDKUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -155,27 +112,10 @@
 			path = DeenIslamBLSDK;
 			sourceTree = "<group>";
 		};
-		5214F0052AD2755400D7C2FE /* DeenIslamBLSDKTests */ = {
-			isa = PBXGroup;
-			children = (
-				5214F0062AD2755400D7C2FE /* DeenIslamBLSDKTests.swift */,
-			);
-			path = DeenIslamBLSDKTests;
-			sourceTree = "<group>";
-		};
-		5214F00F2AD2755400D7C2FE /* DeenIslamBLSDKUITests */ = {
-			isa = PBXGroup;
-			children = (
-				5214F0102AD2755400D7C2FE /* DeenIslamBLSDKUITests.swift */,
-				5214F0122AD2755400D7C2FE /* DeenIslamBLSDKUITestsLaunchTests.swift */,
-			);
-			path = DeenIslamBLSDKUITests;
-			sourceTree = "<group>";
-		};
 		5214F01F2AD2762F00D7C2FE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5214F0202AD2763000D7C2FE /* DeenSDK_BL.xcframework */,
+				52F911712ADD03A800252C9F /* DeenIslamBLSDK.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -190,7 +130,7 @@
 				5214EFE82AD2755000D7C2FE /* Sources */,
 				5214EFE92AD2755000D7C2FE /* Frameworks */,
 				5214EFEA2AD2755000D7C2FE /* Resources */,
-				5214F0232AD2763000D7C2FE /* Embed Frameworks */,
+				52F911702ADD039100252C9F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -200,42 +140,6 @@
 			productName = DeenIslamBLSDK;
 			productReference = 5214EFEC2AD2755000D7C2FE /* DeenIslamBLSDK.app */;
 			productType = "com.apple.product-type.application";
-		};
-		5214F0012AD2755400D7C2FE /* DeenIslamBLSDKTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5214F0192AD2755400D7C2FE /* Build configuration list for PBXNativeTarget "DeenIslamBLSDKTests" */;
-			buildPhases = (
-				5214EFFE2AD2755400D7C2FE /* Sources */,
-				5214EFFF2AD2755400D7C2FE /* Frameworks */,
-				5214F0002AD2755400D7C2FE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5214F0042AD2755400D7C2FE /* PBXTargetDependency */,
-			);
-			name = DeenIslamBLSDKTests;
-			productName = DeenIslamBLSDKTests;
-			productReference = 5214F0022AD2755400D7C2FE /* DeenIslamBLSDKTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		5214F00B2AD2755400D7C2FE /* DeenIslamBLSDKUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5214F01C2AD2755400D7C2FE /* Build configuration list for PBXNativeTarget "DeenIslamBLSDKUITests" */;
-			buildPhases = (
-				5214F0082AD2755400D7C2FE /* Sources */,
-				5214F0092AD2755400D7C2FE /* Frameworks */,
-				5214F00A2AD2755400D7C2FE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5214F00E2AD2755400D7C2FE /* PBXTargetDependency */,
-			);
-			name = DeenIslamBLSDKUITests;
-			productName = DeenIslamBLSDKUITests;
-			productReference = 5214F00C2AD2755400D7C2FE /* DeenIslamBLSDKUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -250,14 +154,6 @@
 					5214EFEB2AD2755000D7C2FE = {
 						CreatedOnToolsVersion = 15.0;
 						LastSwiftMigration = 1500;
-					};
-					5214F0012AD2755400D7C2FE = {
-						CreatedOnToolsVersion = 15.0;
-						TestTargetID = 5214EFEB2AD2755000D7C2FE;
-					};
-					5214F00B2AD2755400D7C2FE = {
-						CreatedOnToolsVersion = 15.0;
-						TestTargetID = 5214EFEB2AD2755000D7C2FE;
 					};
 				};
 			};
@@ -275,8 +171,6 @@
 			projectRoot = "";
 			targets = (
 				5214EFEB2AD2755000D7C2FE /* DeenIslamBLSDK */,
-				5214F0012AD2755400D7C2FE /* DeenIslamBLSDKTests */,
-				5214F00B2AD2755400D7C2FE /* DeenIslamBLSDKUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -293,20 +187,6 @@
 				5214F0342AD279B800D7C2FE /* A.xib in Resources */,
 				5214EFF92AD2755300D7C2FE /* Assets.xcassets in Resources */,
 				5214EFF72AD2755000D7C2FE /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5214F0002AD2755400D7C2FE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5214F00A2AD2755400D7C2FE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,37 +207,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5214EFFE2AD2755400D7C2FE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5214F0072AD2755400D7C2FE /* DeenIslamBLSDKTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5214F0082AD2755400D7C2FE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5214F0132AD2755400D7C2FE /* DeenIslamBLSDKUITestsLaunchTests.swift in Sources */,
-				5214F0112AD2755400D7C2FE /* DeenIslamBLSDKUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		5214F0042AD2755400D7C2FE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5214EFEB2AD2755000D7C2FE /* DeenIslamBLSDK */;
-			targetProxy = 5214F0032AD2755400D7C2FE /* PBXContainerItemProxy */;
-		};
-		5214F00E2AD2755400D7C2FE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5214EFEB2AD2755000D7C2FE /* DeenIslamBLSDK */;
-			targetProxy = 5214F00D2AD2755400D7C2FE /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		5214EFF52AD2755000D7C2FE /* Main.storyboard */ = {
@@ -561,82 +411,6 @@
 			};
 			name = Release;
 		};
-		5214F01A2AD2755400D7C2FE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = TXRJVVLSAS;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.gakk.DeenIslamBLSDKTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeenIslamBLSDK.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DeenIslamBLSDK";
-			};
-			name = Debug;
-		};
-		5214F01B2AD2755400D7C2FE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = TXRJVVLSAS;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.gakk.DeenIslamBLSDKTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeenIslamBLSDK.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DeenIslamBLSDK";
-			};
-			name = Release;
-		};
-		5214F01D2AD2755400D7C2FE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = TXRJVVLSAS;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.gakk.DeenIslamBLSDKUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = DeenIslamBLSDK;
-			};
-			name = Debug;
-		};
-		5214F01E2AD2755400D7C2FE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = TXRJVVLSAS;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.gakk.DeenIslamBLSDKUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = DeenIslamBLSDK;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -654,24 +428,6 @@
 			buildConfigurations = (
 				5214F0172AD2755400D7C2FE /* Debug */,
 				5214F0182AD2755400D7C2FE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5214F0192AD2755400D7C2FE /* Build configuration list for PBXNativeTarget "DeenIslamBLSDKTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5214F01A2AD2755400D7C2FE /* Debug */,
-				5214F01B2AD2755400D7C2FE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5214F01C2AD2755400D7C2FE /* Build configuration list for PBXNativeTarget "DeenIslamBLSDKUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5214F01D2AD2755400D7C2FE /* Debug */,
-				5214F01E2AD2755400D7C2FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
