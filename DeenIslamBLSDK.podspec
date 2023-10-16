@@ -20,6 +20,6 @@ Pod::Spec.new do |s|
     s.source            = { :git => "https://github.com/shadhin-music/DeenIslamBLSDK.git", :tag => "#{s.version}" }
     s.ios.deployment_target = '12.0'
     s.swift_version = "5.7"
-    s.ios.vendored_frameworks = 'DeenSDK_BL.xcframework' # Your XCFramework
+    s.ios.vendored_frameworks = 'DeenIslamBLSDK.xcframework' # Your XCFramework
     s.requires_arc = true
 end
