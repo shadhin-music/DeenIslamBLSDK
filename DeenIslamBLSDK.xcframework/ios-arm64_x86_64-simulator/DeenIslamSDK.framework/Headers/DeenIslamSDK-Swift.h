@@ -395,6 +395,11 @@ SWIFT_CLASS("_TtC12DeenIslamSDK14DeenIslamBLSDK")
 @class UIEvent;
 
 @interface DeenIslamBLSDK (SWIFT_EXTENSION(DeenIslamSDK))
+/// \param msisdn user mobile number
+///
+/// \param isBL number is BL or not
+///
+- (void)logInWith:(NSString * _Nonnull)msisdn isBL:(BOOL)isBL complete:(void (^ _Nonnull)(NSString * _Nullable, NSString * _Nullable))complete;
 /// \param tabBar UITabBarController for quran show
 ///
 /// \param nav UINavigationController for navigate view controller
@@ -1392,6 +1397,11 @@ SWIFT_CLASS("_TtC12DeenIslamSDK14DeenIslamBLSDK")
 @class UIEvent;
 
 @interface DeenIslamBLSDK (SWIFT_EXTENSION(DeenIslamSDK))
+/// \param msisdn user mobile number
+///
+/// \param isBL number is BL or not
+///
+- (void)logInWith:(NSString * _Nonnull)msisdn isBL:(BOOL)isBL complete:(void (^ _Nonnull)(NSString * _Nullable, NSString * _Nullable))complete;
 /// \param tabBar UITabBarController for quran show
 ///
 /// \param nav UINavigationController for navigate view controller

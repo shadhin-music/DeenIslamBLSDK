@@ -16637,7 +16637,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Result<Swift.String, DeenIslamSDK.DeenError>) -> ()",
+                "printedName": "(Swift.String?, Swift.String?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -16646,34 +16646,51 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "Result",
-                    "printedName": "Swift.Result<Swift.String, DeenIslamSDK.DeenError>",
+                    "name": "Tuple",
+                    "printedName": "(Swift.String?, Swift.String?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
                       },
                       {
                         "kind": "TypeNominal",
-                        "name": "DeenError",
-                        "printedName": "DeenIslamSDK.DeenError",
-                        "usr": "s:12DeenIslamSDK0A5ErrorO"
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
                       }
-                    ],
-                    "usr": "s:s6ResultO"
+                    ]
                   }
                 ]
               }
             ],
             "declKind": "Func",
-            "usr": "s:12DeenIslamSDK0aB5BLSDKC5logIn4with4isBL8completeySS_Sbys6ResultOySSAA0A5ErrorOGctF",
-            "mangledName": "$s12DeenIslamSDK0aB5BLSDKC5logIn4with4isBL8completeySS_Sbys6ResultOySSAA0A5ErrorOGctF",
+            "usr": "c:@CM@DeenIslamSDK@objc(cs)DeenIslamBLSDK(im)logInWith:isBL:complete:",
+            "mangledName": "$s12DeenIslamSDK0aB5BLSDKC5logIn4with4isBL8completeySS_SbySSSg_AHtctF",
             "moduleName": "DeenIslamSDK",
+            "objc_name": "logInWith:isBL:complete:",
             "declAttributes": [
               "Final",
               "AccessControl",
+              "ObjC",
               "RawDocComment"
             ],
             "isFromExtension": true,
@@ -46429,7 +46446,7 @@
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ApiService\/UserService.swift",
       "kind": "StringLiteral",
-      "offset": 819,
+      "offset": 1010,
       "length": 2,
       "value": "\"\""
     },
@@ -66001,14 +66018,14 @@
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/Core\/DeenIslamBLSDK.swift",
       "kind": "StringLiteral",
-      "offset": 954,
+      "offset": 943,
       "length": 18,
       "value": "\"MSISDN is empty.\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/Core\/DeenIslamBLSDK.swift",
       "kind": "StringLiteral",
-      "offset": 1385,
+      "offset": 1354,
       "length": 13,
       "value": "\"token empty\""
     },

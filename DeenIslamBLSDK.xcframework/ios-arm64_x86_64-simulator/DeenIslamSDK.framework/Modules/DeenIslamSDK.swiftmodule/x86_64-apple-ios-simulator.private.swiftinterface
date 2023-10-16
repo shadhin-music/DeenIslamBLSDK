@@ -577,7 +577,7 @@ extension DeenIslamSDK.IQKeyboardManager {
   @objc deinit
 }
 extension DeenIslamSDK.DeenIslamBLSDK {
-  final public func logIn(with msisdn: Swift.String, isBL: Swift.Bool, complete: @escaping (Swift.Result<Swift.String, DeenIslamSDK.DeenError>) -> Swift.Void)
+  @objc final public func logIn(with msisdn: Swift.String, isBL: Swift.Bool, complete: @escaping (Swift.String?, Swift.String?) -> Swift.Void)
   @objc final public func initialize(with tabBar: UIKit.UITabBarController?, nav: UIKit.UINavigationController, delegate: any DeenIslamSDK.DeenIslamSDKNotifier, token: Swift.String, isBL: Swift.Bool)
   @objc final public func gotoHome()
   @objc final public func goto(feature: DeenIslamSDK.AppFeature)
