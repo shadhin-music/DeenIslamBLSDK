@@ -22,16 +22,13 @@ class ViewController: UIViewController {
 
     @IBAction func onLoginPressed(_ sender: Any) {
         
-        DeenIslamBLSDK.shared.logIn(with: textField.text ?? "" , isBL: true) { result in
-            switch result {
-            case .success(let success):
+        DeenIslamBLSDK.shared.logIn(with: textField.text ?? "" , isBL: true) { token,error in
+            if let token = token{
                 let tab = TabBarVC()
-                tab.token = success
-                self.navigationController?.pushViewController(tab, animated: true
-                )
-            case .failure(let failure):
-                print(failure.localizedDescription)
+                tab.token = token
+                self.navigationController?.pushViewController(tab, animated: true)
             }
+            
         }
     }
     
