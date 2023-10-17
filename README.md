@@ -53,10 +53,20 @@ Func tokenStatus(token isValid : Bool, error : String)
 //isBL is optional 
 DeenIslamBLSDK.shared.initialize(with: UITabBarController?, nav: UINavigationController, delegate: DeenIslamSDKNotifier, token: String, isBL: Bool) 
 
-//direct open sdk 
-func gotoHome()
-//sdk open feature wise 
-func goto(feature : AppFeature)
+#direct open sdk 
+DeenIslamBLSDK.shared.goto(feature: .home)
+#sdk open feature wise 
+DeenIslamBLSDK.shared.gotoHome()
+DeenIslamBLSDK.shared.goto(feature: .islamicName)
+DeenIslamBLSDK.shared.goto(feature: .tasbeeh)
+DeenIslamBLSDK.shared.goto(feature: .dua)
+DeenIslamBLSDK.shared.goto(feature: .hadith)
+DeenIslamBLSDK.shared.goto(feature: .prayerTime)
+DeenIslamBLSDK.shared.goto(feature: .qibla)
+DeenIslamBLSDK.shared.goto(feature: .zakat)
+DeenIslamBLSDK.shared.goto(feature: .alQuaran)
+
+
 //sdk open from rcCode 
 func openFromRC(code: String)
 //check is prayerNotification is enabled or not 
