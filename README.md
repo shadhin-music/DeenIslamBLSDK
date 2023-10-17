@@ -79,11 +79,31 @@ DeenIslamBLSDK.shared.goto(feature: .zakat)
 DeenIslamBLSDK.shared.goto(feature: .alQuaran)
       
 ```
+sdk open from rcCode 
+```
+func openFromRC(code: String)
+
+```
+check is prayerNotification is enabled or not 
+```
+func isPrayerNotificationEnabled() -> Bool
+
+```
+clear all pending notification
+```
+func clearAllPrayerNotification()
+```
+
 prayer notification enable or disable 
 ```
+func prayerNotification(isEnable: Bool)
 
 ```
-
+## NB: 
+For xcode 15
+```
+Target -> Build setting -> ENABLE_USER_SCRIPT_SANDBOXING = false
+```
 ## FAQ 
 Rezwan(rezwan.gakk@gmail.com)(+8801717230976)
 
