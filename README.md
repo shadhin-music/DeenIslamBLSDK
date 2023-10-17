@@ -1,16 +1,18 @@
-iOS SDK Documentation 
-Initialize the SDK
-Podfile
-pod ‘DeenIslamBLSDK’
+# DeenIslamBLSDK
+[![Version](https://img.shields.io/cocoapods/v/DeenIslamBLSDK)](https://github.com/shadhin-music/DeenIslamBLSDK)
+[![License](https://img.shields.io/github/license/shadhin-music/DeenIslamBLSDK)](https://github.com/shadhin-music/DeenIslamBLSDK)
 
-[N.B:- Before release please update pod to latest build. Pod version link(https://github.com/shadhin-music/DeenIslamBLSDK). Always use latest version (pod update)]
+## Installation
 
-iOS SDK Sample App
-A sample app is provided if more clarification is needed please refer to the link(https://github.com/shadhin-music/DeenIslamBLSDK).
+DeenIslamBLSDK is available through [CocoaPods](https://github.com/shadhin-music/DeenIslamBLSDK). To install
+it, simply add the following line to your Podfile:
 
-Configure iOS SDK
-In AppDelegate class file
-
+```ruby
+pod 'DeenIslamBLSDK’
+```
+## SDK Initilization 
+In Appdelegate SDK initilization process with token and call back delegate 
+```ruby
 import DeenIslamSDK
 
 
@@ -23,13 +25,16 @@ override func remoteControlReceived(with event: UIEvent?) {
 if let event = event {
  		DeenIslamBLSDK.shared.eventRegister(with: event)
 }
+
 }
 func applicationWillTerminate(_ application: UIApplication) {
          DeenIslamBLSDK.shared.terminate()
 
-    }
-
+}
+  
+```
 In Info.plist file
+```ruby
 <key>NSAppTransportSecurity</key>
 <dict>
 <key>NSAllowsArbitraryLoads</key>
@@ -38,25 +43,32 @@ In Info.plist file
 <key> Application can be killed immediately when user is shutting down or logging out</key>
 <false/>
 
+```
 
-Project target Signing & Capabilities 
-add Background Mood and select 'Audio,Airplay, and picture in picture','Background Processing'
-Delegate `DeenIslamSDKNotifier`
-This delegate is notifier from sdk 
+DeenIslamSDKNotifier
+```
+func errorMessage(error: String)
 
-// error message return if anything wrong 
-Func errorMessage(error : String) 
-//login token status validation 
-Func tokenStatus(token isValid : Bool, error : String) 
-
-//SDK initializer with  Tabbar,navigationBar,delegate,token and isBL number or not
-//isBL is optional 
-DeenIslamBLSDK.shared.initialize(with: UITabBarController?, nav: UINavigationController, delegate: DeenIslamSDKNotifier, token: String, isBL: Bool) 
-
-#direct open sdk 
-DeenIslamBLSDK.shared.goto(feature: .home)
-#sdk open feature wise 
+func tokenStatus(token isValid: Bool, error: String?) {
+        if isValid{
+            print("token is valid")
+        }else{
+            print(error ?? "error")
+        }
+ }
+```
+SDK initializer with  Tabbar,navigationBar,delegate,token and isBL number or not
+isBL is optional 
+```
+DeenIslamBLSDK.shared.initialize(with: UITabBarController?, nav: UINavigationController, delegate: DeenIslamSDKNotifier, token: String, isBL: Bool)
+```
+direct open sdk 
+```
 DeenIslamBLSDK.shared.gotoHome()
+```
+sdk open feature wise 
+```
+DeenIslamBLSDK.shared.goto(feature: .home)
 DeenIslamBLSDK.shared.goto(feature: .islamicName)
 DeenIslamBLSDK.shared.goto(feature: .tasbeeh)
 DeenIslamBLSDK.shared.goto(feature: .dua)
@@ -65,27 +77,16 @@ DeenIslamBLSDK.shared.goto(feature: .prayerTime)
 DeenIslamBLSDK.shared.goto(feature: .qibla)
 DeenIslamBLSDK.shared.goto(feature: .zakat)
 DeenIslamBLSDK.shared.goto(feature: .alQuaran)
+      
+```
+prayer notification enable or disable 
+```
 
+```
 
-//sdk open from rcCode 
-func openFromRC(code: String)
-//check is prayerNotification is enabled or not 
-func isPrayerNotificationEnabled() -> Bool
-//clear all pending notification
-func clearAllPrayerNotification()
+## FAQ 
+Rezwan(rezwan.gakk@gmail.com)(+8801717230976)
 
-///prayer notification enable or disable 
-func prayerNotification(isEnable: Bool)
-
-Add azan file to your main project for prayer notification sound. You can get this file in example project. 
-
-NB: 
-For xcode 15
-Target -> Build setting -> ENABLE_USER_SCRIPT_SANDBOXING = false
-
-## Author
-
-MD Azizur Rahman, azizur.gakk@gmail.com
 
 ## Company
 
@@ -94,4 +95,3 @@ MD Azizur Rahman, azizur.gakk@gmail.com
 ## License
 
 DeenIslamBLSDK is available under the MIT license. See the LICENSE file for more info
-
