@@ -1,111 +1,77 @@
-# DeenIslamBLSDK
-# MYBLMusicSDK
-[![Version](https://img.shields.io/cocoapods/v/MYBLMusicSDK)](https://cocoapods.org/pods/MYBLMusicSDK)
-[![License](https://img.shields.io/github/license/shadhin-music/MYBLMusicSDK-iOS)](https://github.com/shadhin-music/MYBLMusicSDK-iOS/blob/main/LICENSE)
-[![Platforms](https://img.shields.io/badge/Platforms-iOS%2011%2B-blue.svg)](https://github.com/shadhin-music/MYBLMusicSDK-iOS/blob/main/LICENSE)
-[![Languages](https://img.shields.io/badge/language-%20swift-FF69B4.svg?style=plastic)](#)
-[![Code-Size](https://img.shields.io/github/languages/code-size/shadhin-music/MYBLMusicSDK-iOS)](#)
+iOS SDK Documentation 
+Initialize the SDK
+Podfile
+pod ‘DeenIslamBLSDK’
 
-## Installation
+[N.B:- Before release please update pod to latest build. Pod version link(https://github.com/shadhin-music/DeenIslamBLSDK). Always use latest version (pod update)]
 
-MYBLMusicSDK is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+iOS SDK Sample App
+A sample app is provided if more clarification is needed please refer to the link(https://github.com/shadhin-music/DeenIslamBLSDK).
 
-```ruby
-pod 'MYBLMusicSDK'
-```
-## SDK Initilization 
-In Appdelegate SDK initilization process with token and call back delegate 
-```ruby
-import MYBLShadhinSDK
+Configure iOS SDK
+In AppDelegate class file
+
+import DeenIslamSDK
+
 
 func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        //received music control from notification bar
-        application.beginReceivingRemoteControlEvents()
-        //initilize sdk with token
-        ShadhinBL.shared.initialize(with: "", delegate: self)
-        return true
+application.beginReceivingRemoteControlEvents()
+ 	return true
+}
+
+override func remoteControlReceived(with event: UIEvent?) {
+if let event = event {
+ 		DeenIslamBLSDK.shared.eventRegister(with: event)
+}
+}
+func applicationWillTerminate(_ application: UIApplication) {
+         DeenIslamBLSDK.shared.terminate()
+
     }
-    
-```
-Media control setup from AppDelegate
-```ruby
- override func remoteControlReceived(with event: UIEvent?) {
-        if let event = event {
-            //register event
-            ShadhinBL.shared.eventRegister(with: event)
-            
-        }
-    }
-```
-Get Music home controller you need to pass root navigation controller for navigate music conntroller and mini player always visible from any controller. 
 
-We provide that direct push to navigation controller
-```ruby
-ShadhinBL.shared.gotoHome(with: self.tabBarController, navigationController: self.navigationController!)
-```
-There is other feature we implemented that can direct navigate to our controller 
+In Info.plist file
+<key>NSAppTransportSecurity</key>
+<dict>
+<key>NSAllowsArbitraryLoads</key>
+<true/>
+</dict>
+<key> Application can be killed immediately when user is shutting down or logging out</key>
+<false/>
 
-## POPULAR ARTIST 
-```ruby
- ShadhinBL.shared.openPatch(patchID: FeatureType.POPULAR_ARTIST.rawValue, navigationController: self.navigationController!,tabController: self.tabBarController)
-```
-## LATEST RELEASE 
-```ruby
- ShadhinBL.shared.openPatch(patchID:FeatureType.LATEST_RELEASE.rawValue, navigationController: self.navigationController!,tabController: self.tabBarController)
-```
-## POPULAR VIDEO
-```ruby
- ShadhinBL.shared.openPatch(patchID: FeatureType.POPULAR_VIDEO.rawValue, navigationController: self.navigationController!,tabController: self.tabBarController)
-```
-## PODCAST 
-```ruby
- ShadhinBL.shared.openPatch(patchID: FeatureType.PODCAST.rawValue, navigationController: self.navigationController!,tabController: self.tabBarController)
-```
-## AMAR TUNE 
-```ruby
-ShadhinBL.shared.openPatch(patchID: FeatureType.AMAR_TUNE.rawValue, navigationController: self.navigationController!,tabController: self.tabBarController)
- ```
-## AMAR TUNE TOP 100
-```ruby
- ShadhinBL.shared.openPatch(patchID: FeatureType.AMAR_TUNE_TOP_100.rawValue, navigationController: self.navigationController!,tabController: self.tabBarController)
-```
-## Goto Radio
-```ruby
-ShadhinBL.shared.gotoRadio(nav: self.navigationController!,tabController: self.tabBarController)
-```
-## Stop Music
-```ruby
-ShadhinBL.shared.stopMusic()
-```
-## Play Music
-```ruby
-ShadhinBL.shared.playMusic()
-```
-## Pause Music
-```ruby
-ShadhinBL.shared.pauseMusic()
-```
-## Clear All Cache
-```ruby
-ShadhinBL.shared.clearAllCache()
-```
-## Open RC Code
-```ruby
-ShadhinBL.shared.openPatch(patchID: "MjM1OV9QREJD", navigationController: self.navigationController!, tabController: self.tabBarController)
-```
 
-## PERMISSION 
-Add App Transport Security to your info.plist
-```ruby
-     <key>NSAppTransportSecurity</key>
-    <dict>
-    <key>NSAllowsArbitraryLoads</key>
-    <true/>
-    </dict>
-```
-From your Project target Signing & Capabilities add Background Mood and select 'Audio,Airplay, and picture in picture','Background Processing'
+Project target Signing & Capabilities 
+add Background Mood and select 'Audio,Airplay, and picture in picture','Background Processing'
+Delegate `DeenIslamSDKNotifier`
+This delegate is notifier from sdk 
 
+// error message return if anything wrong 
+Func errorMessage(error : String) 
+//login token status validation 
+Func tokenStatus(token isValid : Bool, error : String) 
+
+//SDK initializer with  Tabbar,navigationBar,delegate,token and isBL number or not
+//isBL is optional 
+DeenIslamBLSDK.shared.initialize(with: UITabBarController?, nav: UINavigationController, delegate: DeenIslamSDKNotifier, token: String, isBL: Bool) 
+
+//direct open sdk 
+func gotoHome()
+//sdk open feature wise 
+func goto(feature : AppFeature)
+//sdk open from rcCode 
+func openFromRC(code: String)
+//check is prayerNotification is enabled or not 
+func isPrayerNotificationEnabled() -> Bool
+//clear all pending notification
+func clearAllPrayerNotification()
+
+///prayer notification enable or disable 
+func prayerNotification(isEnable: Bool)
+
+Add azan file to your main project for prayer notification sound. You can get this file in example project. 
+
+NB: 
+For xcode 15
+Target -> Build setting -> ENABLE_USER_SCRIPT_SANDBOXING = false
 
 ## Author
 
@@ -117,5 +83,5 @@ MD Azizur Rahman, azizur.gakk@gmail.com
 
 ## License
 
-MYBLMusicSDK is available under the MIT license. See the LICENSE file for more info
+DeenIslamBLSDK is available under the MIT license. See the LICENSE file for more info
 
